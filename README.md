@@ -3,7 +3,7 @@
 Customer feedback triage console: your Excel/CSV feedback -> clean -> label (category + sentiment) -> RICE-ranked backlog -> dashboard.
 
 ## Files
-- `generator.py` - creates a sample Excel file (100 messy rows) you can use as a template
+- `generator.py` - creates a sample Excel file (100 messy rows) i made a sample one, you can use as a template
 - `pipeline.py` - Step 0 load file, Step 1 clean, Step 2 label, Step 3 RICE
 - `app.py` - Streamlit dashboard with a file upload button
 
